@@ -1,0 +1,299 @@
+
+/* global styling */
+body {
+  font-family: 'Orbitron', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background-image: url("./assets/spacewallpaper.jpg");
+  background-size: 250%;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+/* Header Styling */
+.header-container {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  color: #ffa600;
+  text-decoration: none;
+  padding-left: 10px ;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header-link:hover {
+  background-color: #510cc0;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Profile Picture and about me Styling */
+.profile-picture {
+  padding-bottom: 30px;
+}
+
+.profile-picture h2 {
+  font-size: 75px;
+  font-weight: normal;
+  margin: 0;
+  width: 100%;
+}
+
+.profile-picture h3 {
+  font-size: 75px;
+}
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-me {
+    font-size: 30px;
+  text-align: center;
+}
+
+#about-me p {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+
+
+/* Link styling */
+#about-me ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#about-me li {
+  margin-right: 20px;
+}
+
+#about-me a {
+  color: #ffa600;
+  text-decoration: none;
+}
+
+#about-me a:hover {
+  color: #510cc0;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Work Container Styling */
+.card {
+  max-height: 300px;
+  border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #510cc0;
+  box-shadow: 0 0 20px rgba(81, 12, 192, 0.3);
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-body {
+  text-align: center;
+  position: relative;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-title,
+.card-text {
+  position: relative;
+  z-index: 1;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: -30px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.work-link {
+  text-decoration: none;
+}
+
+.github {
+  text-align: center;
+  margin: 100px;
+}
+
+.btn {
+  font-size: 50px;
+  width: auto;
+  background-color: #ffa600;
+}
+
+
+
+
+
+
+/* Contact Form Styling */
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button {
+  background-color:#ffa600;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d23e5;
+}
+
+
+
+.resume {
+  font-family: Arial, sans-serif;
+  background-color:antiquewhite;
+  color: #333;
+  padding: 20px;
+  margin:auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: 1300px;
+  border-radius: 5px;
+}
+
+.resume p {
+  font-size: 20px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+.resume-heading {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.resume-contact-info {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.resume-date {
+  font-size: 20px;
+}
+
+.resume-gpa {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+
+
