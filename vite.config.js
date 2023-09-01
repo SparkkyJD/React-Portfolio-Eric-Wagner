@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    minify: 'terser',
-    base: '/React-Portfolio-Eric-Wagner', 
+    minify: 'terser'
   },
   server: {
     port: 3001,
