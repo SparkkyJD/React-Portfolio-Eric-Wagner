@@ -9,9 +9,9 @@ const Portfolio = () => {
         <div className="col-md-4">
             <a href="https://squad-sync-5e36d690cf8e.herokuapp.com/" className="work-link">
               <div className="card">
-                <img src="/src/assets/Screenshot1.png" className="card-img-top" alt="Note Taker App" />
+                <img src="./assets/Screenshot1.png" className="card-img-top" alt="Note Taker App" />
                 <div className="card-body">
-                  <h5 className="card-title">SquadSync</h5>
+                  <h5 className="card-title">SquadSyncccc</h5>
                   <p className="card-text">React/GraphQL/Appolo/flowbite</p>
                   <div className="card-overlay"></div>
                 </div>
@@ -21,9 +21,9 @@ const Portfolio = () => {
           <div className="col-md-4">
             <a href="https://challenge-fitness-9cf387429034.herokuapp.com/login" className="work-link">
               <div className="card">
-                <img src="/src/assets/Screenshot2.png" className="card-img-top" alt="Challenge Fitness App" />
+                <img src="./assets/Screenshot2.png" className="card-img-top" alt="Challenge Fitness App" />
                 <div className="card-body">
-                  <h5 className="card-title">Challenge Fitness</h5>
+                  <h5 className="card-title">Challenge Fitness App</h5>
                   <p className="card-text">Mern Stack</p>
                   <div className="card-overlay"></div>
                 </div>
@@ -33,15 +33,17 @@ const Portfolio = () => {
           <div className="col-md-4">
             <a href="https://sparkkyjd.github.io/Marvel-comic-search/" className="work-link">
               <div className="card">
-                <img src="/src/assets/Screenshot3.png" className="card-img-top" alt="Marvel Longbox App" />
+                <img src="./assets/Screenshot3.png" className="card-img-top" alt="Marvel Longbox App" />
                 <div className="card-body">
-                  <h5 className="card-title">Marvel Longbox</h5>
+                  <h5 className="card-title">Marvel Longbox App</h5>
                   <p className="card-text">JS/CSS/HTML/API</p>
                   <div className="card-overlay"></div>
                 </div>
               </div>
             </a>
           </div>
+         
+          
           <div className="col-md-4">
             <a href="https://sparkkyjd.github.io/weather-dashboard/" className="work-link">
               <div className="card">
