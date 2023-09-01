@@ -4,7 +4,7 @@ const AboutMe = () => {
       <div className="container">
         <div className="profile-picture">
            <h2>Eric Wagner</h2>
-          <img src="assets/me.jpg" alt="Profile Picture" />
+          <img src="/src/assets/me.jpg" alt="Profile Picture" />
           <h3>Full Stack Web Developer</h3>
         </div>
         <br></br><br></br>
