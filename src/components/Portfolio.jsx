@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="col-md-4">
             <a href="https://squad-sync-5e36d690cf8e.herokuapp.com/" className="work-link">
               <div className="card">
-                <img src="/screenshot1.png" className="card-img-top" alt="Note Taker App" />
+                <img src="\src\assets\screenshot1.jpg" className="card-img-top" alt="Note Taker App" />
                 <div className="card-body">
                   <h5 className="card-title">SquadSyncccc</h5>
                   <p className="card-text">React/GraphQL/Appolo/flowbite</p>
@@ -21,7 +21,7 @@ const Portfolio = () => {
           <div className="col-md-4">
             <a href="https://challenge-fitness-9cf387429034.herokuapp.com/login" className="work-link">
               <div className="card">
-                <img src="/screenshot2.png" className="card-img-top" alt="Challenge Fitness App" />
+                <img src="\src\assets\screenshot2.jpg" className="card-img-top" alt="Challenge Fitness App" />
                 <div className="card-body">
                   <h5 className="card-title">Challenge Fitness App</h5>
                   <p className="card-text">Mern Stack</p>
@@ -33,7 +33,7 @@ const Portfolio = () => {
           <div className="col-md-4">
             <a href="https://sparkkyjd.github.io/Marvel-comic-search/" className="work-link">
               <div className="card">
-                <img src="/screenshot3.png" className="card-img-top" alt="Marvel Longbox App" />
+                <img src="\src\assets\screenshot3.jpg" className="card-img-top" alt="Marvel Longbox App" />
                 <div className="card-body">
                   <h5 className="card-title">Marvel Longbox App</h5>
                   <p className="card-text">JS/CSS/HTML/API</p>
