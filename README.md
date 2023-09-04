@@ -1,6 +1,8 @@
 # React Portfolio
 
 Welcome to my React portfolio! This project showcases my skills, education, work experience, and achievements in a responsive and user-friendly format. Built using React, this portfolio highlights my journey from aeronautical and agricultural equipment technician to aspiring software engineer.
+## Screenshot 
+![Screenshot (69)](https://github.com/SparkkyJD/React-Portfolio-Eric-Wagner/assets/127361245/9b66111b-bb45-45c2-8c70-9ad66ede4b92)
 
 ## Deployment
 
