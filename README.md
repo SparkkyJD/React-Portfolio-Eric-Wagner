@@ -5,7 +5,7 @@ Welcome to my React portfolio! This project showcases my skills, education, work
 ## Deployment
 
 This portfolio is live and accessible at
-
+https://zesty-sundae-203663.netlify.app/
 ## Installation
 
 If you'd like to run this portfolio locally:
