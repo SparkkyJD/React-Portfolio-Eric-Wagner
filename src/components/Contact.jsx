@@ -57,8 +57,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-form-container">
-      <h2>Contact Me (not currently implemented yet)</h2>
+    <div className="contact-form-container text-yellow-500">
+      <h2 className="text-xl">Contact Me</h2> <br></br>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
@@ -69,7 +69,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
           />
-          {errors.name && <p className="error-message">{errors.name}</p>}
+          {errors.name && <p className="error-message text-red-500">{errors.name}</p>}
         </div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
@@ -80,7 +80,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
           />
-          {errors.email && <p className="error-message">{errors.email}</p>}
+          {errors.email && <p className="error-message text-red-500">{errors.email}</p>}
         </div>
         <div className="form-group">
           <label htmlFor="message">Message:</label>
@@ -90,9 +90,9 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
           ></textarea>
-          {errors.message && <p className="error-message">{errors.message}</p>}
+          {errors.message && <p className="error-message text-red-500">{errors.message}</p>}
         </div>
-        <button type="submit">Submit</button>
+        <button className="text-yellow-500 bg:white" type="submit">Submit</button>
       </form>
     </div>
   );
